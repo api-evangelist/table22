@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.table22.com/
+host: https://www.table22.com
+documents:
+  - path: /.well-known/security.txt          # RFC 9116
+    status: 404
+  - path: /.well-known/openid-configuration   # OIDC discovery
+    status: 404
+  - path: /.well-known/oauth-authorization-server  # RFC 8414
+    status: 404
+  - path: /.well-known/api-catalog            # RFC 9727
+    status: 404
+  - path: /.well-known/ai-plugin.json         # OpenAI plugin manifest
+    status: 404
+notes: >-
+  Table22 exposes no /.well-known/ discovery surface. It is a full-service,
+  sales-led subscription-commerce SaaS for food & beverage merchants with no
+  public developer API, OpenAPI, or OAuth authorization server. A machine-
+  readable /llms.txt IS published (see llms/table22-llms.txt).

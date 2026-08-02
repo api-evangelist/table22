@@ -1,21 +1,81 @@
 aid: table22
 name: Table22
-description: Table22 is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Table22 is a subscription commerce and growth platform built specifically for
+  food & beverage businesses. It enables restaurants, wine shops, wineries,
+  butchers, bakeries, specialty grocers, and retailers to launch and grow
+  subscriptions, clubs, memberships, pre-orders, and product drops that generate
+  predictable recurring revenue beyond their four walls. The full-service
+  platform combines branded storefronts, an order management system, white-glove
+  fulfillment coordination, automated lifecycle marketing and CRM, five-star
+  consumer support, and AI tools for hospitality. Over 1,000 merchants across 40
+  U.S. states use Table22, representing $100M+ in revenue impact. Pricing is
+  success-based (15% revenue share, no upfront or setup fees). Table22 is a
+  sales-led SaaS with no public developer API; this profile captures its
+  identity, website surface, and machine-readable llms.txt.
 url: https://raw.githubusercontent.com/api-evangelist/table22/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/698f21fb9ba15c1f554a3064/69a70223cd54c6222e9a4f31_9f53df3fd6cfc060c96e59cca023efb3_og.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Subscription Commerce
+- Food and Beverage
+- Hospitality
+- Ecommerce
+- Memberships
+- Recurring Revenue
+- Wine Clubs
+- Fulfillment
 apis: []
+common:
+- type: DomainSecurity
+  url: security/table22-domain-security.yml
+- type: Website
+  url: https://www.table22.com/
+- type: Pricing
+  url: https://www.table22.com/pricing
+- type: Support
+  url: https://help.table22.com/
+- type: Documentation
+  url: https://help.table22.com/
+- type: SignUp
+  url: https://app.table22.com/
+- type: Login
+  url: https://app.table22.com/
+- type: TermsOfService
+  url: https://www.table22.com/legals/website-terms
+- type: PrivacyPolicy
+  url: https://www.table22.com/legals/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/table22
+- type: LLMsTxt
+  url: llms/table22-llms.txt
+- type: WellKnown
+  url: well-known/table22-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
